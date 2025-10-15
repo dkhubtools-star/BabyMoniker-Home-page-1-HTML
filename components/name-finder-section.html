@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BabyMoniker Home page 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="../style.css" />
+    <div>
+      <link href="./name-finder-section.css" rel="stylesheet" />
+      <section
+        id="name-finder-section"
+        role="region"
+        aria-label="Name Finder Preview"
+        class="name-finder-section-name-finder-section name-finder-section"
+      >
+        <div class="finder-container">
+          <aside class="finder-hints">
+            <h2 class="section-title">
+              <fragment class="name-finder-section-fragment15">
+                <span class="name-finder-section-text21">How It Works</span>
+              </fragment>
+            </h2>
+            <div class="hint-chip">
+              <svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594zM20 2v4m2-2h-4"
+                  ></path>
+                  <circle r="2" cx="4" cy="20"></circle>
+                </g>
+              </svg>
+              <span>
+                <fragment class="name-finder-section-fragment30">
+                  <span class="name-finder-section-text36">
+                    Tell us your style
+                  </span>
+                </fragment>
+              </span>
+            </div>
+            <div class="hint-chip">
+              <svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle r="10" cx="12" cy="12"></circle>
+                  <path
+                    d="M12 2a14.5 14.5 0 0 0 0 20a14.5 14.5 0 0 0 0-20M2 12h20"
+                  ></path>
+                </g>
+              </svg>
+              <span>
+                <fragment class="name-finder-section-fragment20">
+                  <span class="name-finder-section-text26">
+                    Choose heritage
+                  </span>
+                </fragment>
+              </span>
+            </div>
+            <div class="hint-chip">
+              <svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+              <span>
+                <fragment class="name-finder-section-fragment21">
+                  <span class="name-finder-section-text27">Discover magic</span>
+                </fragment>
+              </span>
+            </div>
+            <p class="hint-description">
+              <fragment class="name-finder-section-fragment24">
+                <span class="name-finder-section-text30">
+                  The Name Finder learns with every click, refining suggestions
+                  to match your family's story.
+                </span>
+              </fragment>
+            </p>
+          </aside>
+          <div class="finder-demo">
+            <div class="demo-card">
+              <h3 class="demo-title">
+                <fragment class="name-finder-section-fragment16">
+                  <span class="name-finder-section-text22">
+                    Try the Name Finder
+                  </span>
+                </fragment>
+              </h3>
+              <div class="search-row">
+                <label for="name-search-input" class="visually-hidden">
+                  <fragment class="name-finder-section-fragment19">
+                    <span class="name-finder-section-text25">
+                      Enter name preferences
+                    </span>
+                  </fragment>
+                </label>
+                <input
+                  type="text"
+                  id="name-search-input"
+                  role="searchbox"
+                  aria-label="Search for baby names"
+                  placeholder="Irish, ends with -a, playful..."
+                />
+                <button
+                  id="search-names-btn"
+                  class="search-btn btn-primary btn"
+                >
+                  <svg
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m21 21l-4.34-4.34"></path>
+                      <circle r="8" cx="11" cy="11"></circle>
+                    </g>
+                  </svg>
+                  <span>
+                    <fragment class="name-finder-section-fragment22">
+                      <span class="name-finder-section-text28">Find Names</span>
+                    </fragment>
+                  </span>
+                </button>
+              </div>
+              <div class="suggestion-display">
+                <h4 class="name-display">
+                  <fragment class="name-finder-section-fragment28">
+                    <span class="name-finder-section-text34">Aoibheann</span>
+                  </fragment>
+                </h4>
+                <p class="name-pronunciation">
+                  <fragment class="name-finder-section-fragment32">
+                    <span class="name-finder-section-text38">
+                      /ee-van/ • Irish origin
+                    </span>
+                  </fragment>
+                </p>
+                <p class="name-meaning">
+                  <fragment class="name-finder-section-fragment27">
+                    <span class="name-finder-section-text33">
+                      "Beautiful, radiant one" — A classic Irish name with
+                      poetic charm, rising gently in popularity. Pairs
+                      beautifully with Finn or Niamh.
+                    </span>
+                  </fragment>
+                </p>
+                <div class="name-meta">
+                  <span class="meta-badge">
+                    <fragment class="name-finder-section-fragment11">
+                      <span class="name-finder-section-text17">
+                        Heritage: Irish
+                      </span>
+                    </fragment>
+                  </span>
+                  <span class="meta-badge">
+                    <fragment class="name-finder-section-fragment13">
+                      <span class="name-finder-section-text19">
+                        Trend: Rising
+                      </span>
+                    </fragment>
+                  </span>
+                  <span class="meta-badge">
+                    <fragment class="name-finder-section-fragment36">
+                      <span class="name-finder-section-text42">
+                        Rarity: Unique
+                      </span>
+                    </fragment>
+                  </span>
+                </div>
+                <div class="name-actions">
+                  <button class="action-btn">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span>
+                      <fragment class="name-finder-section-fragment34">
+                        <span class="name-finder-section-text40">Save</span>
+                      </fragment>
+                    </span>
+                  </button>
+                  <button class="action-btn">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2v13m4-9l-4-4l-4 4m-4 6v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span>
+                      <fragment class="name-finder-section-fragment25">
+                        <span class="name-finder-section-text31">Share</span>
+                      </fragment>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <p class="learns-text">
+                <fragment class="name-finder-section-fragment29">
+                  <span class="name-finder-section-learns-text2 learns-text">
+                    <svg
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="16"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594zM20 2v4m2-2h-4"
+                        ></path>
+                        <circle r="2" cx="4" cy="20"></circle>
+                      </g>
+                    </svg>
+                    <span>The AI learns your preferences with every click</span>
+                  </span>
+                </fragment>
+              </p>
+            </div>
+          </div>
+          <aside class="finder-results">
+            <h3 class="results-title">
+              <fragment class="name-finder-section-fragment31">
+                <span class="name-finder-section-text37">More Suggestions</span>
+              </fragment>
+            </h3>
+            <div class="result-card">
+              <h4 class="result-name">
+                <fragment class="name-finder-section-fragment35">
+                  <span class="name-finder-section-text41">Saoirse</span>
+                </fragment>
+              </h4>
+              <p class="result-info">
+                <fragment class="name-finder-section-fragment10">
+                  <span class="name-finder-section-text16">
+                    /seer-sha/ • Freedom, liberty
+                  </span>
+                </fragment>
+              </p>
+              <span class="result-badge">
+                <fragment class="name-finder-section-fragment23">
+                  <span class="name-finder-section-text29">Irish</span>
+                </fragment>
+              </span>
+            </div>
+            <div class="result-card">
+              <h4 class="result-name">
+                <fragment class="name-finder-section-fragment33">
+                  <span class="name-finder-section-text39">Orla</span>
+                </fragment>
+              </h4>
+              <p class="result-info">
+                <fragment class="name-finder-section-fragment26">
+                  <span class="name-finder-section-text32">
+                    /or-la/ • Golden princess
+                  </span>
+                </fragment>
+              </p>
+              <span class="result-badge">
+                <fragment class="name-finder-section-fragment18">
+                  <span class="name-finder-section-text24">Irish</span>
+                </fragment>
+              </span>
+            </div>
+            <div class="result-card">
+              <h4 class="result-name">
+                <fragment class="name-finder-section-fragment14">
+                  <span class="name-finder-section-text20">Aisling</span>
+                </fragment>
+              </h4>
+              <p class="result-info">
+                <fragment class="name-finder-section-fragment17">
+                  <span class="name-finder-section-text23">
+                    /ash-ling/ • Dream, vision
+                  </span>
+                </fragment>
+              </p>
+              <span class="result-badge">
+                <fragment class="name-finder-section-fragment12">
+                  <span class="name-finder-section-text18">Irish</span>
+                </fragment>
+              </span>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
