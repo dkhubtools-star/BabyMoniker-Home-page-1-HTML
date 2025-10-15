@@ -829,6 +829,8 @@
       var(--animation-curve-primary);
   align-items: center;
   text-decoration: none;
+  margin-left: 3%;
+  margin-top: 3%;
 }
  
 .navigation-toggle {
